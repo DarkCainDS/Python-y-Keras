@@ -1,0 +1,9 @@
+El descenso del gradiente es un algoritmo de optimización utilizado en el campo del aprendizaje automático y la inteligencia artificial para minimizar una función de pérdida o error. Su objetivo principal es encontrar el valor óptimo de los parámetros de un modelo que minimice la función de pérdida.
+
+El algoritmo del descenso del gradiente se basa en la idea de iterativamente ajustar los parámetros del modelo en la dirección opuesta del gradiente de la función de pérdida. El gradiente representa la dirección de máximo crecimiento de la función, por lo que moverse en la dirección opuesta del gradiente permite realizar ajustes que reducen la función de pérdida en cada iteración.
+
+El proceso comienza con una inicialización aleatoria de los parámetros del modelo y se repite hasta que se alcanza un criterio de convergencia, como un número máximo de iteraciones o un umbral de error establecido. En cada iteración, se calcula el gradiente de la función de pérdida con respecto a los parámetros y se actualizan los valores de los parámetros en función del tamaño del paso (también conocido como tasa de aprendizaje) y la dirección del gradiente.
+
+El descenso del gradiente puede tener diferentes variantes, como el descenso del gradiente estocástico (SGD) y el descenso del gradiente por lotes (batch gradient descent), que difieren en la cantidad de datos utilizados para calcular el gradiente en cada iteración.
+
+En resumen, el descenso del gradiente es un algoritmo de optimización iterativo utilizado para ajustar los parámetros de un modelo de forma gradual y encontrar los valores que minimizan una función de pérdida o error. Es ampliamente utilizado en el aprendizaje automático y la inteligencia artificial para entrenar modelos y realizar tareas de optimización.

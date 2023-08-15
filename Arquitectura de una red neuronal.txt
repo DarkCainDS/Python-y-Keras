@@ -1,0 +1,15 @@
+Una red neuronal esta compuesta de capaz
+cada capa agrega informacion a la siguiente capa de la red
+
+La capa inicial de entrada es el Input Layer, todas la capaz entrea la inicial y la final son las capas ocultas o Hidden Layers y la capa final es la capa de salida o Output Layer
+
+Cada capa de las red neuronal trabaja con caracteristicas que le fueron pasada de la red anterior
+
+la operacion de una capa de una red a la siguiente se puede comprender como producto “punto” entre una matriz y un vector
+siendo este la multiplicacion entre matriz y vectores
+
+y luego se le suma el bias el cual es una constante cuyo valor cambia igual que los pesos
+
+dentro de una red neuronal ocurren miles de operciones de producto punto de matrices, y en cada iteracion se recalculan el valor de los pesos y constantes que se utilizaran en cada operacion.
+
+Existe un problema matematico que si todas las operaciones son lineales no importa la cantidad de capaz el resultado seria una linea la cual perderia todo el aprendizaje hecho, para evitar esto las redes neuronales cuentan con las “funciones de activacion”

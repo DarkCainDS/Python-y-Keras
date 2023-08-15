@@ -1,0 +1,9 @@
+El "momentum" o momento es un término utilizado en el contexto del descenso del gradiente y otros algoritmos de optimización. Se refiere a un parámetro adicional que se utiliza para acelerar el proceso de convergencia y ayudar a evitar oscilaciones excesivas al actualizar los parámetros del modelo.
+
+En el contexto del descenso del gradiente con momentum, además de utilizar el gradiente actualizado para ajustar los parámetros, se considera también el "momentum" que acumula información sobre las direcciones anteriores del gradiente. El objetivo del momentum es proporcionar un impulso en la dirección dominante del gradiente y permitir un avance más rápido en el espacio de los parámetros.
+
+El valor del momentum se establece en el rango de 0 a 1. Un valor de momentum cercano a 0 significa que se da menos importancia a las direcciones anteriores del gradiente, mientras que un valor cercano a 1 indica que se da mayor importancia a las direcciones anteriores. Un valor típico de momentum es 0.9.
+
+Durante el entrenamiento, el momentum acumula una fracción del gradiente actualizado en cada iteración y lo utiliza para actualizar los parámetros del modelo. Esto ayuda a que el descenso del gradiente con momentum tenga una inercia que le permita atravesar regiones de baja pendiente o de oscilaciones rápidas, lo que puede mejorar la velocidad y estabilidad del proceso de optimización.
+
+En resumen, el momentum es un parámetro utilizado en el descenso del gradiente con el fin de acelerar la convergencia y reducir las oscilaciones excesivas. Acumula información sobre las direcciones anteriores del gradiente y proporciona un impulso en la dirección dominante. Es un mecanismo que ayuda a mejorar la eficiencia y estabilidad del algoritmo de optimización.

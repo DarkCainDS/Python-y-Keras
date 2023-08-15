@@ -1,0 +1,19 @@
+La función de pérdida evalúa los valores reales contra la predicción. Un valor alto en la función de pérdida indica que nuestras predicciones son malas. En cambio, un valor bajo de la función de pérdida indica una buena predicción.
+
+Para el caso de una regresión tenemos la función de pérdida del error cuadrático medio (MSE, por sus siglas en inglés)
+*********
+
+
+
+La elección de la función de pérdida depende del tipo de problema de aprendizaje que se esté abordando (regresión, clasificación, etc.) y de las características específicas de los datos. A continuación, se presentan algunas funciones de pérdida comunes utilizadas en el aprendizaje automático:
+
+Error cuadrático medio (MSE): Es una función de pérdida comúnmente utilizada en problemas de regresión. Calcula el promedio de los errores al cuadrado entre las predicciones y los valores reales. Se define como la suma de los residuos cuadrados dividida por el número de muestras.
+
+Entropía cruzada binaria: Es una función de pérdida comúnmente utilizada en problemas de clasificación binaria. Mide la discrepancia entre las probabilidades predichas y las etiquetas reales, en el caso de un problema binario. Se utiliza en combinación con una función de activación sigmoide en la capa de salida del modelo.
+
+Entropía cruzada categórica: Es similar a la entropía cruzada binaria, pero se utiliza en problemas de clasificación multiclase. Mide la discrepancia entre las distribuciones de probabilidad predichas y las etiquetas reales. Se utiliza en combinación con una función de activación softmax en la capa de salida del modelo.
+
+Pérdida de log-verosimilitud negativa (NLL): Es una función de pérdida utilizada en problemas de clasificación multiclase. Mide la negativa del logaritmo de la probabilidad de la clase correcta. Es comúnmente utilizada junto con una función de activación softmax en la capa de salida.
+
+Pérdida de Huber: Es una función de pérdida utilizada en problemas de regresión robusta a valores atípicos. Combina las propiedades de la pérdida cuadrática (MSE) y la pérdida absoluta (MAE). Es menos sensible a valores atípicos que el MSE.
+

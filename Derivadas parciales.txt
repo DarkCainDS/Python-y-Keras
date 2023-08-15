@@ -1,0 +1,12 @@
+Las derivadas parciales son un concepto fundamental en cálculo multivariable que se utiliza para medir cómo una función cambia en relación con cada una de sus variables independientes de forma individual.
+
+Cuando una función tiene varias variables independientes, como f(x, y), las derivadas parciales miden cómo cambia la función con respecto a cada variable independiente mientras se mantiene constante el valor de las demás variables. Se denotan comúnmente utilizando la notación de subíndice para indicar la variable con respecto a la cual se está derivando. Por ejemplo, ∂f/∂x representa la derivada parcial de la función f con respecto a la variable x.
+
+Para calcular una derivada parcial, se trata cada variable independiente como si fuera la única variable en la función y se derivan las otras variables como constantes. Por ejemplo, si tenemos la función f(x, y) = x^2 + 2xy + y^2, podemos calcular las derivadas parciales de la siguiente manera:
+
+∂f/∂x = 2x + 2y (la derivada de x^2 con respecto a x es 2x, y la derivada de 2xy con respecto a x es 2y)
+∂f/∂y = 2x + 2y (la derivada de 2xy con respecto a y es 2x, y la derivada de y^2 con respecto a y es 2y)
+
+Las derivadas parciales son útiles en varios campos, como el análisis de optimización, la física y las ciencias de la computación. Por ejemplo, en el contexto del descenso del gradiente en el aprendizaje automático, las derivadas parciales se utilizan para calcular los gradientes y determinar la dirección de actualización de los parámetros del modelo.
+
+En resumen, las derivadas parciales miden cómo una función cambia en relación con cada una de sus variables independientes de forma individual. Se utilizan para analizar el cambio local de una función en función de cada variable independiente mientras se mantienen constantes las demás variables.

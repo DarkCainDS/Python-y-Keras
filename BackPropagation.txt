@@ -1,0 +1,14 @@
+La retropropagación, también conocida como backpropagation en inglés, es un algoritmo utilizado en el entrenamiento de redes neuronales artificiales. Es un método eficiente para calcular las gradientes de error y propagarlos hacia atrás a través de la red neuronal, permitiendo así ajustar los pesos de las conexiones de manera iterativa.
+
+En el entrenamiento de una red neuronal, el objetivo es ajustar los pesos de las conexiones entre las neuronas para que la red pueda aprender a realizar una tarea específica, como reconocer patrones en datos de entrada. La retropropagación es fundamental en este proceso, ya que permite determinar cómo los cambios en los pesos afectan el error de salida de la red.
+
+El algoritmo de retropropagación funciona de la siguiente manera:
+
+Se presenta un conjunto de datos de entrenamiento a la red neuronal y se obtiene una salida estimada.
+Se calcula el error entre la salida estimada y el valor deseado utilizando una función de pérdida o error.
+Los gradientes de error se calculan retrocediendo a través de la red neuronal, capa por capa, utilizando la regla de la cadena.
+Utilizando los gradientes de error calculados, se ajustan los pesos de las conexiones de la red mediante un algoritmo de optimización, como el descenso del gradiente.
+Se repiten los pasos anteriores con diferentes conjuntos de datos de entrenamiento hasta que el error de la red se minimice o se alcance un criterio de convergencia deseado.
+La retropropagación es esencial para actualizar los pesos de las conexiones de manera eficiente y guiar el aprendizaje de la red neuronal. A través de la propagación de los gradientes de error hacia atrás, la red puede ajustar gradualmente los pesos para reducir el error y mejorar su capacidad de generalización en tareas de clasificación, regresión u otras.
+
+En resumen, la retropropagación es un algoritmo utilizado en el entrenamiento de redes neuronales artificiales. Permite calcular los gradientes de error y propagarlos hacia atrás a través de la red neuronal, lo que facilita el ajuste iterativo de los pesos de las conexiones. Esto ayuda a mejorar el rendimiento de la red y su capacidad para aprender y generalizar a partir de los datos de entrenamiento.
